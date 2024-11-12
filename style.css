@@ -1,10 +1,16 @@
 body {
     background-color: midnightblue;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
 }
 h1 {
     text-align: center;
     color: rgb(154, 146, 220);
+}
+
+h3 {
+    text-align: center;
+    font-style: italic;
 }
 
 .projects { display:flex; 
@@ -25,7 +31,17 @@ border-radius: 25%;
     border: 2px solid rgb(126, 14, 201); /* choose a color */
     display: block;
     margin: auto;
-} 
+}
+
+a{
+    text-decoration: none;
+    color: rgb(126, 14, 201);
+}
+
+.project p {
+    text-align: center;
+    margin: 15px;
+}
 
 .about{
     display:flex;
@@ -36,8 +52,8 @@ border-radius: 25%;
     }
 
     .about img {
-        width: 150px;
-        height: 200px;
+        width: 50px;
+        height: 50px;
         border-radius: 25%;
         border: 2px solid rgb(126, 14, 201);
         }
